@@ -5,7 +5,6 @@ import Hero from './components/Hero';
 import PainPoints from './components/PainPoints';
 import About from './components/About';
 import Services from './components/Services';
-import DiagnosisIA from './components/DiagnosisIA';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -17,7 +16,6 @@ const App: React.FC = () => {
       <PainPoints />
       <About />
       <Services />
-      <DiagnosisIA />
       <Contact />
       <Footer />
     </div>

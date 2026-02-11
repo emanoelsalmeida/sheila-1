@@ -17,7 +17,6 @@ const Navbar: React.FC = () => {
             <a href="#inicio" className="hover:text-amber-600 transition">Início</a>
             <a href="#quem-sou" className="hover:text-amber-600 transition">Quem Sou</a>
             <a href="#servicos" className="hover:text-amber-600 transition">Serviços</a>
-            <a href="#diagnostico" className="hover:text-amber-600 transition">Diagnóstico IA</a>
             <a href="#contato" className="bg-slate-900 text-white px-6 py-2 rounded-full hover:bg-amber-600 transition">Agendar Consultoria</a>
           </div>
           <div className="md:hidden">
@@ -37,7 +36,6 @@ const Navbar: React.FC = () => {
           <a href="#inicio" onClick={() => setIsOpen(false)} className="block text-slate-600 hover:text-amber-600">Início</a>
           <a href="#quem-sou" onClick={() => setIsOpen(false)} className="block text-slate-600 hover:text-amber-600">Quem Sou</a>
           <a href="#servicos" onClick={() => setIsOpen(false)} className="block text-slate-600 hover:text-amber-600">Serviços</a>
-          <a href="#diagnostico" onClick={() => setIsOpen(false)} className="block text-slate-600 hover:text-amber-600">Diagnóstico IA</a>
           <a href="#contato" onClick={() => setIsOpen(false)} className="block font-bold text-amber-600">Agendar Consultoria</a>
         </div>
       )}
